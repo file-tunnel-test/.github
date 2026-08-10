@@ -1,6 +1,8 @@
 # .github
 Governance and reusable test workflow policy for file-tunnel-test.
 
+This repository also documents the generated test-fleet conventions sourced from `zed-pkg-test/test-org-fleet`, including immutable dependency pins, real dependency lanes, product assertions, least-privilege workflow execution, and gated cross-organization integration.
+
 
 <!-- ore-org-baseline:begin -->
 ## Organization-wide defaults

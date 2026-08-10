@@ -40,3 +40,7 @@ The confidence assessment must account for test relevance and coverage, review f
 ### Merge record
 
 Use the repository's permitted merge method. Re-evaluate all gates whenever the head SHA changes. In the pull request, record the source and target branches, tested SHA, check results, confidence percentage, and rationale before merging.
+
+## Generated test-fleet contract
+
+Generated fleet assets originate in `zed-pkg-test/test-org-fleet`; change their fleet manifest or bootstrapper rather than hand-editing generated copies. Keep source dependencies pinned to immutable 40-character commits, exercise at least one real dependency lane (submodule, Zed, or native package), preserve the generated contract, and add product assertions rather than replacing contract checks with no-op smoke tests.

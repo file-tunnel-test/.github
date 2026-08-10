@@ -1,3 +1,9 @@
+# file-tunnel-test
+
+Test organization for `file-tunnel`, covering resumable encrypted transfer, clients, UI, network faults, synchronization, integrity, contracts, security boundaries, and recovery behavior.
+
+Generated pull-request workflows use least privilege, immutable action pins, and no persisted checkout credential. Cross-organization integration is explicitly gated by organization variables and credentials.
+
 <!-- org-project-routing:start -->
 ## Planning and delivery
 
