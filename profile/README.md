@@ -29,3 +29,27 @@ Resumable encrypted file transfer, clients, UI, network faults, sync, and integr
 - `storage-e2e`: 2
 
 All generated pull-request workflows use least privilege, immutable action pins, and no persisted checkout credential. Integration workflows are gated by organization variables and credentials.
+
+
+<!-- ore-org-baseline:begin -->
+## Planning and governance
+
+- Canonical Linear project: https://linear.app/denman/project/githubcomfile-tunnel-test-c8f644168247
+- Organization defaults: https://github.com/file-tunnel-test/.github
+- Canonical agent policy: https://github.com/file-tunnel-test/.github/blob/main/agents.md
+- Security policy: https://github.com/file-tunnel-test/.github/security/policy
+
+Repositories in this organization use semantic conflict resolution with 3–10 relevant prior commits when useful, full cross-repository context, pull-request delivery, and a hard automated-agent denylist for destructive or history-rewriting operations.
+<!-- ore-org-baseline:end -->
+
+<!-- BEGIN MANAGED REPOSITORY RELATIONSHIPS v1 -->
+## Repository relationship registry
+
+`file-tunnel-test` declares repository roles, dependency edges, cross-organization capabilities, deployment ownership, and the git-submodule/Zed-package contract:
+
+- [Human-readable map](architecture/REPOSITORY_RELATIONSHIPS.md)
+- [Machine-readable manifest](architecture/repository-relationships.json)
+- [JSON Schema](architecture/repository-relationships.schema.json)
+
+The public registry withholds private repository names and edges.
+<!-- END MANAGED REPOSITORY RELATIONSHIPS v1 -->
