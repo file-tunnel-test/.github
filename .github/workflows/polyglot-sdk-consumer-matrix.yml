@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   sdk-clients:
-    uses: zed-pkg-test/.github/.github/workflows/sdk-client-language-matrix.yml@df3eed96202810b7e7d6667fabc3041b19e6a22f
+    uses: zed-pkg-test/.github/.github/workflows/sdk-client-language-matrix.yml@fbdd53e658e9f370a5d155d51f181efcd23c81cf
     with:
       clients_repository: file-tunnel/ftnl-clients
       clients_ref: main
