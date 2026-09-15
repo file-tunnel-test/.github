@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "status": "active",
+  "testOwner": {"login": "file-tunnel-test", "id": 313180937, "type": "Organization"},
+  "productionOwner": {"login": "file-tunnel", "id": 310631493, "type": "Organization"},
+  "discoveryScope": {"kind": "organization-current-tips"},
+  "relationshipRegistry": "architecture/repository-relationships.json",
+  "policy": {"suffixInferenceAuthoritative": false, "bindExactDefaultBranchSha": true, "failClosedOnInvisiblePrivateSources": true, "silentPublicFallbackAllowed": false}
+}
